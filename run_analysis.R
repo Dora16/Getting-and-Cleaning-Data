@@ -1,3 +1,4 @@
+library(dplyr)
 dataPath="~/Downloads/Data Science/Getting and Cleaning Data/UCI HAR Dataset"
 trainingSubjects=read.table(file.path(dataPath, "train","subject_train.txt"))
 #read train data
